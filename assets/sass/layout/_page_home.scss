@@ -1,4 +1,17 @@
 .localizacao {
+    padding-top: 60px;
+
+    .localizacao--searchLocal{
+        text-align: center;
+
+        select {
+            width: 60%;
+        }
+    }
+
+    input {
+        text-align: center;
+    }
 
     img {
         display: block;
@@ -7,7 +20,29 @@
     }
 
     &__car-item {
+        padding: 50px;
 
+        &--btnBuy {
+            color: #fff;
+            background-color: #002752;
+            padding: 8px 30px;
+            width: 60%;
+            text-align: center;
+            margin-top: 15px;
+            border: solid 1px #002752;
+            border-radius: 5px;
+            font-size: 15px;
+            display: block;
+            text-transform: uppercase;
+            text-decoration: none !important;
+
+            &:hover {
+                background-color: #4096f3;
+                color: #fff;
+                border: solid 1px #002752;
+                transition: all 0.7s;
+            }
+        }
     }
 
 }
