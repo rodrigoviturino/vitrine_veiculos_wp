@@ -4885,6 +4885,16 @@ header .header__menu li a:hover {
   transition: all 0.7s;
 }
 
+.footer__lojas ul {
+  padding: 0;
+}
+.footer__lojas ul li {
+  font-size: 16px;
+  list-style: none;
+  width: 100%;
+  text-align: left;
+}
+
 .search__cars__items {
   display: flex;
   justify-items: center;
