@@ -1,0 +1,30 @@
+/*
+Theme Name: Vitrine de Veículos
+Author: Rodrigo Viturino
+Author URI: https://rodrigoviturino.com.br/
+Description: Criação de tema de Vitrine de veículos utilizando taxonomia
+Version: 1.0
+Theme URI: https://rodrigoviturino.com.br/vitrine-veiculos
+*/
+
+// Base
+// @import "base/normalize";
+@import "base/reboot";
+@import "base/container";
+@import "base/grid";
+
+// Layout
+@import "layout/about";
+@import "layout/contact";
+@import "layout/home";
+@import "layout/page_internal";
+@import "layout/public";
+@import "layout/header";
+@import "layout/_banner_home";
+@import "layout/page_home";
+
+// Widgets
+@import "layout/widgets_search_cars";
+
+// Variavel
+@import "variavel/fonts";

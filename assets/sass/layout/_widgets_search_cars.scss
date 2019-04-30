@@ -1,0 +1,21 @@
+.search__cars {
+
+    &__items {
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+
+        &--item{
+            padding: 25px 0;
+    
+            select {
+                border: solid 2px #777;
+            }
+            
+        }
+    }
+
+    
+}

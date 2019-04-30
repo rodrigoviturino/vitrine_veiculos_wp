@@ -1,0 +1,31 @@
+
+header {
+    width: 100%;
+    padding: 20px;
+    .logo {
+        width: 30%;
+        height: 2.3rem;
+    }
+    .header__menu {
+        display: flex;
+        justify-content: flex-end;
+        height: 2.3rem;
+        align-items: center;
+        margin: 0;
+        li {
+            list-style: none;
+            a {
+                padding: 0 10px;
+                color: #000;
+                font-size: 1.125rem;
+
+                &:hover {
+                    color: darkred;
+                }
+            }
+
+        }
+
+    }
+}
+
