@@ -4897,6 +4897,19 @@ header .header__menu li a:hover {
   border: solid 1px #fff;
   transition: all 0.7s;
 }
+.localizacao__car--item--info {
+  color: #135fb1;
+  text-decoration: none !important;
+  text-align: center;
+}
+.localizacao__car--item--info:after {
+  content: "";
+  display: block;
+  background-color: #3b73da;
+  width: 100px;
+  height: 2px;
+  margin: 0 100px;
+}
 
 .footer--logo img {
   width: 60%;

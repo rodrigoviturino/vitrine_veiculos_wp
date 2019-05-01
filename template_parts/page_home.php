@@ -46,8 +46,8 @@
                 </div>
                 <h3>Titulo Maior</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                <span>Status: <i style="color:darkred" class="fas fa-circle"></i> </span>
-                <a href="#" class="localizacao__car--item--btnBuy">Comprar</a>
+                <span>Status: <i style="color:darkred" class="fas fa-circle"></i> | <a href="#" class="localizacao__car--item--info">Saiba Mais</a> </span>
+                <a href="#" class="localizacao__car--item--btnBuy">Comprar</a> 
             </div>
 
             <div class="col-md-6 col-lg-4 localizacao__car--item">
@@ -56,7 +56,7 @@
                 </div>
                 <h3>Titulo Maior</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                <span>Status: <i style="color:green" class="fas fa-circle"></i> </span>
+                <span>Status: <i style="color:green" class="fas fa-circle"></i> | <a href="#" class="localizacao__car--item--info">Saiba Mais</a> </span>
                 <a href="#" class="localizacao__car--item--btnBuy">Comprar</a>
             </div>
 
@@ -66,7 +66,7 @@
                 </div>
                 <h3>Titulo Maior</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                <span>Status: <i style="color:green" class="fas fa-circle"></i> </span>
+                <span>Status: <i style="color:green" class="fas fa-circle"></i> | <a href="#" class="localizacao__car--item--info">Saiba Mais</a> </span>
                 <a href="#" class="localizacao__car--item--btnBuy">Comprar</a>
             </div>
 
@@ -76,7 +76,7 @@
                 </div>
                 <h3>Titulo Maior</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                <span>Status: <i style="color:green" class="fas fa-circle"></i> </span>
+                <span>Status: <i style="color:green" class="fas fa-circle"></i> | <a href="#" class="localizacao__car--item--info">Saiba Mais</a> </span>
                 <a href="#" class="localizacao__car--item--btnBuy">Comprar</a>
             </div>
 
@@ -86,7 +86,7 @@
                 </div>
                 <h3>Titulo Maior</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                <span>Status: <i style="color:darkred" class="fas fa-circle"></i> </span>
+                <span>Status: <i style="color:darkred" class="fas fa-circle"></i> | <a href="#" class="localizacao__car--item--info">Saiba Mais</a> </span>
                 <a href="#" class="localizacao__car--item--btnBuy">Comprar</a>
             </div>
 
@@ -96,7 +96,7 @@
                 </div>
                 <h3>Titulo Maior</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                <span>Status: <i style="color:darkred" class="fas fa-circle"></i> </span>
+                <span>Status: <i style="color:darkred" class="fas fa-circle"></i> | <a href="#" class="localizacao__car--item--info">Saiba Mais</a>  </span>
                 <a href="#" class="localizacao__car--item--btnBuy">Comprar</a>
             </div>
 

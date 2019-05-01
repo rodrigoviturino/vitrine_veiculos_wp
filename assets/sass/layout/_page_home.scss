@@ -58,6 +58,21 @@
                 transition: all 0.7s;
             }
         }
+
+        &--info {
+            color: #135fb1;
+            text-decoration: none !important;
+            text-align: center;
+
+            &:after {
+                content: '';
+                display: block;
+                background-color: rgb(59, 115, 218);
+                width: 100px;
+                height: 2px;
+                margin: 0 100px;
+            }
+        }
     }
 
 }
