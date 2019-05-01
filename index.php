@@ -4,6 +4,7 @@
 	
 	<h1><?php the_title(); ?></h1>
 	<h2>Página Index</h2>
+	
 	<?php the_content(); ?>
 
 <?php endwhile; else: ?>

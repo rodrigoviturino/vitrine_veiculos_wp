@@ -7,6 +7,21 @@
         select {
             width: 60%;
         }
+
+        button {
+            border: solid 1px transparent;
+            background-color: #002752;            
+            border-radius: 5px;
+            color: #fff;
+            font-size: 16px;
+            font-weight: 300;
+
+            &:hover {
+                background-color: #4096f3;
+                border: solid 1px #fff;
+                transition: all 0.5s;
+            }
+        }
     }
 
     input {
@@ -19,7 +34,7 @@
         height: 10rem;
     }
 
-    &__car-item {
+    &__car--item {
         padding: 50px;
 
         &--btnBuy {
@@ -39,7 +54,7 @@
             &:hover {
                 background-color: #4096f3;
                 color: #fff;
-                border: solid 1px #002752;
+                border: solid 1px #fff;
                 transition: all 0.7s;
             }
         }

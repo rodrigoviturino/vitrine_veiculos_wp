@@ -35,74 +35,78 @@
                     <option value="Belo Horizonte">Belo Horizonte</option>
                     <option value="Lorem">Lorem Ipsum</option>
                 </select>
+                <button type="submit">Filtrar</button>
             </div>
         </div>
 
 
-            <div class="col-md-6 col-lg-4 localizacao__car-item">
+            <div class="col-md-6 col-lg-4 localizacao__car--item">
                 <div>
                     <img src="<?php echo get_template_directory_uri( ) . '../assets/img/cars/allure-2008-1-6.jpg' ?>" alt="">
                 </div>
                 <h3>Titulo Maior</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
                 <span>Status: <i style="color:darkred" class="fas fa-circle"></i> </span>
-                <a href="#" class="localizacao__car-item--btnBuy">Comprar</a>
+                <a href="#" class="localizacao__car--item--btnBuy">Comprar</a>
             </div>
 
-            <div class="col-md-6 col-lg-4 localizacao__car-item">
+            <div class="col-md-6 col-lg-4 localizacao__car--item">
                 <div>
                     <img src="<?php echo get_template_directory_uri( ) . '../assets/img/cars/0-0_carro_facil_900x800_hb20_sedan_1-6.jpg' ?>" alt="">
                 </div>
                 <h3>Titulo Maior</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
                 <span>Status: <i style="color:green" class="fas fa-circle"></i> </span>
-                <a href="#" class="localizacao__car-item--btnBuy">Comprar</a>
+                <a href="#" class="localizacao__car--item--btnBuy">Comprar</a>
             </div>
 
-            <div class="col-md-6 col-lg-4 localizacao__car-item">
+            <div class="col-md-6 col-lg-4 localizacao__car--item">
                 <div>
                     <img src="<?php echo get_template_directory_uri( ) . '../assets/img/cars/allure-2008-1-6.jpg' ?>" alt="">
                 </div>
                 <h3>Titulo Maior</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
                 <span>Status: <i style="color:green" class="fas fa-circle"></i> </span>
-                <a href="#" class="localizacao__car-item--btnBuy">Comprar</a>
+                <a href="#" class="localizacao__car--item--btnBuy">Comprar</a>
             </div>
 
-            <div class="col-md-6 col-lg-4 localizacao__car-item">
+            <div class="col-md-6 col-lg-4 localizacao__car--item">
                 <div>
                     <img src="<?php echo get_template_directory_uri( ) . '../assets/img/cars/volkswagen_polo_2019.png' ?>" alt="">
                 </div>
                 <h3>Titulo Maior</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
                 <span>Status: <i style="color:green" class="fas fa-circle"></i> </span>
-                <a href="#" class="localizacao__car-item--btnBuy">Comprar</a>
+                <a href="#" class="localizacao__car--item--btnBuy">Comprar</a>
             </div>
 
-            <div class="col-md-6 col-lg-4 localizacao__car-item">
+            <div class="col-md-6 col-lg-4 localizacao__car--item">
                 <div>
                     <img src="<?php echo get_template_directory_uri( ) . '../assets/img/cars/ford_ka_sedan_2019.png' ?>" alt="">
                 </div>
                 <h3>Titulo Maior</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
                 <span>Status: <i style="color:darkred" class="fas fa-circle"></i> </span>
-                <a href="#" class="localizacao__car-item--btnBuy">Comprar</a>
+                <a href="#" class="localizacao__car--item--btnBuy">Comprar</a>
             </div>
 
-            <div class="col-md-6 col-lg-4 localizacao__car-item">
+            <div class="col-md-6 col-lg-4 localizacao__car--item">
                 <div>
                     <img src="<?php echo get_template_directory_uri( ) . '../assets/img/cars/volkswagen_virtus_2019.png' ?>" alt="">
                 </div>
                 <h3>Titulo Maior</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
                 <span>Status: <i style="color:darkred" class="fas fa-circle"></i> </span>
-                <a href="#" class="localizacao__car-item--btnBuy">Comprar</a>
+                <a href="#" class="localizacao__car--item--btnBuy">Comprar</a>
             </div>
 
         </div>
     </div>
 </section>
 <!-- Fim Localização -->
+
+    <!-- Contact Form -->
+    <?php include ( TEMPLATEPATH . "/widgets_parts/contact_form.php"); ?>
 
 
 <?php

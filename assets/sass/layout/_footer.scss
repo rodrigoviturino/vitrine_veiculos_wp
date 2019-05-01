@@ -1,13 +1,81 @@
 .footer {
+    &--logo {
 
-    &__lojas {
-        ul {    
-            padding: 0;        
+        img {
+            width: 60%;
+            height: auto;
+            display: block;
+            padding-bottom: 10px;
+        }
+    }
+
+    &--menu {
+        p {
+            text-align: center;
+            font-size: 1.5em;
+
+            &:after {
+                content: '';
+                display: block;
+                background-color: goldenrod;
+                width: 50px;
+                height: 2px;
+                margin: 0 auto;
+            }
+            
+            a {
+                text-decoration: none;
+                color: #002752;
+                text-transform: uppercase;
+            }
+        }
+        ul {
+            text-align: center;
+            padding: 0;
             li {
-                font-size: 16px;
                 list-style: none;
-                width: 100%;
-                text-align: left;
+                padding: 0 10px;
+                a:nth-child(1){
+                    font-size: 18px;
+                    color: #002752;
+                    text-decoration: none;
+                    padding: 5px;
+                }
+            }
+        }
+    }
+
+    &--redeSocial {
+        p {
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 1.5em;
+            color: #002752;
+
+            &:after {
+                content: '';
+                display: block;
+                background-color: goldenrod;
+                width: 50px;
+                height: 2px;
+                margin: 0 auto;
+            }
+        }
+        ul {
+            display: flex;
+            width: 100%;
+            li {
+                padding: 0 10px;
+                list-style: none;
+
+                a {
+                    color: #002752;
+                    text-decoration: none;
+                    background-color: rgb(219, 218, 218);
+                    padding: 5px;
+                    border-radius: 4px;
+                    text-transform: initial;
+                }
             }
         }
     }

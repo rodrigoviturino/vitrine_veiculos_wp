@@ -1,0 +1,48 @@
+.contact {
+    padding: 100px 0;
+    &__lojas {
+        ul {    
+            padding: 0;        
+            li {
+                font-size: 16px;
+                list-style: none;
+                width: 100%;
+                text-align: left;
+                padding: 3px 0;
+            }
+        }
+    }
+
+    form {
+        width: 100%;
+        display: block;
+        input {
+            border-top: none;
+            border-right: none;
+            border-left: none;
+            border-bottom: solid 1px #0028526e;
+            margin-bottom: 10px;
+
+        }
+
+        textarea {
+            border-top: none;
+            border-right: none;
+            border-left: none;
+            width: 100%;
+        }
+
+        ::placeholder {
+            color: #002852d7;
+        }
+
+        .btn-contact {
+            margin-top: -8px;
+            color: #fff;
+            width: 100%;
+            display: block;
+            background: #002852;
+            border: solid 1px #0028526e;
+        }
+    }
+}
